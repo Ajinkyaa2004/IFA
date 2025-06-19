@@ -1,0 +1,4 @@
+/Users/ajinkya/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home:23:0:2:64:true:1737972203016:aarch64
+/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home:1:8:0:64:true:1544935228000:x86_64
+/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home:1:8:0:64:false:1544935490000:x86_64
+/Users/ajinkya/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home:22:0:1:64:true:1719733939976:aarch64
