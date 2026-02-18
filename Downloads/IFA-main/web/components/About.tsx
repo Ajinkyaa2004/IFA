@@ -39,10 +39,6 @@ export function About() {
                                 <span><strong className="text-foreground">Financial Markets:</strong> Algorithmic trading & risk modeling.</span>
                             </li>
                             <li className="flex items-center gap-3">
-                                <Trophy className="text-orange-400 w-5 h-5 flex-shrink-0" />
-                                <span><strong className="text-foreground">Sports Analytics:</strong> High-precision outcome prediction.</span>
-                            </li>
-                            <li className="flex items-center gap-3">
                                 <Cpu className="text-purple-400 w-5 h-5 flex-shrink-0" />
                                 <span><strong className="text-foreground">Business Automation:</strong> End-to-end workflow optimization.</span>
                             </li>
@@ -69,7 +65,7 @@ export function About() {
                             <span className="text-secondary mr-2">User:</span>
                             <TypewriterEffect
                                 words={[{
-                                    text: '"Build a system that buys stock when RSI < 30 AND bet on Home Team if win probability > 60%"',
+                                    text: '"Build a system that buys stock when RSI < 30 AND sells when price crosses 200-day MA"',
                                     className: "text-foreground"
                                 }]}
                             />
@@ -82,8 +78,7 @@ export function About() {
                             Processing Request...
                             <div className="mt-2 space-y-1 text-[10px] font-mono text-green-400">
                                 <p>{'>'} Analyzing Financial Module...</p>
-                                <p>{'>'} Analyzing Sports API Module...</p>
-                                <p>{'>'} Generating Hybrid Strategy Code...</p>
+                                <p>{'>'} Generating Strategy Code...</p>
                                 <p>{'>'} Deployment Ready.</p>
                             </div>
                         </div>

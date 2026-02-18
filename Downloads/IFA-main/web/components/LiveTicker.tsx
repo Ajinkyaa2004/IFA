@@ -5,14 +5,13 @@ import { motion } from 'framer-motion';
 const tickerItems = [
     // Stock
     { label: 'NIFTY 50', value: '24,352.40', change: '+0.45%', color: 'text-green-400' },
-
-    // Sports
-    { label: 'EPL: LIV vs MCI', value: 'LIV Win Probability: 42%', change: '↑', color: 'text-orange-400' },
-    { label: 'NBA: LAL vs GSW', value: 'Over 225.5', change: 'Hit Rate 85%', color: 'text-orange-400' },
+    { label: 'SENSEX', value: '80,234.08', change: '+0.32%', color: 'text-green-400' },
+    { label: 'NASDAQ', value: '18,972.42', change: '-0.12%', color: 'text-red-400' },
 
     // Business Automation
     { label: 'TASKS AUTOMATED', value: '1,245 Today', change: '+12%', color: 'text-purple-400' },
     { label: 'DATA PROCESSED', value: '45TB', change: 'Live', color: 'text-blue-400' },
+    { label: 'STRATEGIES DEPLOYED', value: '127', change: '+8', color: 'text-emerald-400' },
 
     // System
     { label: 'SYSTEM STATUS', value: 'OPERATIONAL', change: '✓', color: 'text-secondary' },

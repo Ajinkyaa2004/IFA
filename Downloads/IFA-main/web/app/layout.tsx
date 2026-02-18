@@ -20,7 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Insight Fusion Analytics | Enterprise-Grade Algorithmic Trading',
   description: 'Transforming Data into Insights. We specialize in algorithmic trading system development with a unique zero-coding approach.',
-  keywords: ['Algorithmic Trading', 'Data Analytics', 'AI', 'Machine Learning', 'FinTech', 'Stock Market', 'Sports Prediction'],
+  keywords: ['Algorithmic Trading', 'Data Analytics', 'AI', 'Machine Learning', 'FinTech', 'Stock Market', 'Business Automation'],
 };
 
 export default function RootLayout({

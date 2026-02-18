@@ -43,9 +43,9 @@ export function Hero() {
                         <TypewriterEffect
                             words={[
                                 { text: "Stock Markets.", className: "text-foreground font-semibold" },
-                                { text: "Sports Prediction.", className: "text-foreground font-semibold" },
                                 { text: "Business Automation.", className: "text-foreground font-semibold" },
-                                { text: "Algorithmic Trading.", className: "text-foreground font-semibold" }
+                                { text: "Algorithmic Trading.", className: "text-foreground font-semibold" },
+                                { text: "Data Analytics.", className: "text-foreground font-semibold" }
                             ]}
                         />
                     </div>
@@ -108,20 +108,14 @@ export function Hero() {
                             <div className="text-xs text-green-400 font-mono animate-pulse">● SYSTEM ACTIVE</div>
                         </div>
 
-                        <div className="relative z-10 grid grid-cols-3 gap-3 mb-4">
+                        <div className="relative z-10 grid grid-cols-2 gap-3 mb-4">
                             {/* Box 1: Stocks */}
                             <div className="p-3 rounded-lg bg-foreground/5 border border-border text-center">
                                 <LineChart className="w-5 h-5 text-blue-400 mx-auto mb-1" />
                                 <div className="text-[10px] text-muted-foreground">Market Alpha</div>
                                 <div className="text-sm font-bold text-blue-400">+12.5%</div>
                             </div>
-                            {/* Box 2: Sports */}
-                            <div className="p-3 rounded-lg bg-foreground/5 border border-border text-center">
-                                <Trophy className="w-5 h-5 text-orange-400 mx-auto mb-1" />
-                                <div className="text-[10px] text-muted-foreground">Prediction</div>
-                                <div className="text-sm font-bold text-orange-400">89% Win</div>
-                            </div>
-                            {/* Box 3: Automation */}
+                            {/* Box 2: Automation */}
                             <div className="p-3 rounded-lg bg-foreground/5 border border-border text-center">
                                 <Cpu className="w-5 h-5 text-purple-400 mx-auto mb-1" />
                                 <div className="text-[10px] text-muted-foreground">Efficiency</div>
@@ -139,7 +133,7 @@ export function Hero() {
                         </div>
                     </motion.div>
 
-                    {/* Floating Widget 1 - Sports Odds */}
+                    {/* Floating Widget 1 - Market Analytics */}
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0, y: [0, 15, 0] }}
@@ -150,23 +144,23 @@ export function Hero() {
                         className="absolute -right-4 top-1/2 bg-card/80 backdrop-blur-md border border-border p-4 rounded-xl shadow-xl z-30 w-52"
                     >
                         <div className="flex items-center gap-3 mb-2">
-                            <Activity className="text-orange-400 w-5 h-5" />
-                            <span className="font-bold text-sm">Live Probability</span>
+                            <Activity className="text-blue-400 w-5 h-5" />
+                            <span className="font-bold text-sm">Market Signals</span>
                         </div>
                         <div className="space-y-2">
                             <div className="flex justify-between text-xs">
-                                <span className="text-muted-foreground">Team A Win</span>
-                                <span className="text-green-400">65%</span>
+                                <span className="text-muted-foreground">Buy Signal</span>
+                                <span className="text-green-400">Strong</span>
                             </div>
                             <div className="w-full bg-foreground/10 h-1 rounded-full overflow-hidden">
-                                <div className="h-full bg-green-400 w-[65%]" />
+                                <div className="h-full bg-green-400 w-[80%]" />
                             </div>
                             <div className="flex justify-between text-xs">
-                                <span className="text-muted-foreground">Team B Win</span>
-                                <span className="text-red-400">15%</span>
+                                <span className="text-muted-foreground">Volatility</span>
+                                <span className="text-yellow-400">Medium</span>
                             </div>
                             <div className="w-full bg-foreground/10 h-1 rounded-full overflow-hidden">
-                                <div className="h-full bg-red-400 w-[15%]" />
+                                <div className="h-full bg-yellow-400 w-[45%]" />
                             </div>
                         </div>
                     </motion.div>
