@@ -42,6 +42,10 @@ export function About() {
                                 <Cpu className="text-purple-400 w-5 h-5 flex-shrink-0" />
                                 <span><strong className="text-foreground">Business Automation:</strong> End-to-end workflow optimization.</span>
                             </li>
+                            <li className="flex items-center gap-3">
+                                <Target className="text-blue-400 w-5 h-5 flex-shrink-0" />
+                                <span><strong className="text-foreground">Data Analytics:</strong> Advanced insights and predictive modeling.</span>
+                            </li>
                         </ul>
 
                         <p className="mt-4">
