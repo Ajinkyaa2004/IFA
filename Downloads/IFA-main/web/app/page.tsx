@@ -1,7 +1,6 @@
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { LiveTicker } from '@/components/LiveTicker';
-import { Testimonials } from '@/components/Testimonials';
 import { About } from '@/components/About';
 import { Philosophy } from '@/components/Philosophy';
 import { Process } from '@/components/Process';
@@ -30,7 +29,6 @@ export default function Home() {
         <Process />
         <Portfolio />
         <WhyUs />
-        <Testimonials />
         <Team />
         <FutureTeaser />
       </div>
