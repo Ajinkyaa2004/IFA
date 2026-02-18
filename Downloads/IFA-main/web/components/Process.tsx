@@ -67,15 +67,15 @@ export function Process() {
     const height = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
     return (
-        <section id="process" className="py-32 bg-background relative overflow-hidden" ref={containerRef}>
-            <div className="container mx-auto px-4 relative z-10">
+        <section id="process" className="py-20 md:py-32 bg-background relative overflow-hidden" ref={containerRef}>
+            <div className="container mx-auto px-6 md:px-4 relative z-10">
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    className="text-center mb-24"
+                    className="text-center mb-16 md:mb-24"
                 >
                     <span className="text-secondary text-sm font-mono uppercase tracking-[0.2em] mb-4 block">The Pipeline</span>
-                    <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight px-4">
                         From Raw Idea to <span className="text-foreground">Alpha</span>.
                     </h2>
                 </motion.div>
@@ -121,7 +121,7 @@ export function Process() {
                                         <div className={`absolute -right-20 -top-20 w-64 h-64 bg-gradient-to-br ${item.gradient} blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-700`} />
 
                                         <div className="flex items-center justify-between mb-3 relative z-10">
-                                            <span className={`text-5xl font-bold opacity-10 ${item.color} absolute -top-4 -left-2`}>
+                                            <span className={`text-4xl md:text-5xl font-bold opacity-10 ${item.color} absolute -top-3 md:-top-4 -left-2`}>
                                                 {item.phase}
                                             </span>
                                             <div className="ml-auto flex items-center gap-1.5 text-[10px] font-mono uppercase text-muted-foreground border border-border px-2 py-1 rounded-full bg-foreground/10">
@@ -130,11 +130,11 @@ export function Process() {
                                             </div>
                                         </div>
 
-                                        <h3 className="text-xl font-bold text-foreground mb-2 relative z-10 pl-2">
+                                        <h3 className="text-lg md:text-xl font-bold text-foreground mb-2 relative z-10 pl-2">
                                             {item.title}
                                         </h3>
 
-                                        <p className="text-sm text-muted-foreground leading-relaxed relative z-10 pl-2">
+                                        <p className="text-xs md:text-sm text-muted-foreground leading-relaxed relative z-10 pl-2">
                                             {item.description}
                                         </p>
                                     </div>
